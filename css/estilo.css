@@ -1,0 +1,662 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: red;
+}
+
+header{
+    width: 100%;
+}
+
+#header-contacto{
+    width: 100%;
+    height: 20px;
+    background: #414142;
+    margin-bottom: 5px;
+    border-bottom: .5px solid #dddbdb;
+    box-shadow: 0 1px 5px #ccc;
+}
+
+#logo-barra{
+    width: 225px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header label img{
+    width: 30px;
+}
+
+#boton-menu{
+    display: none;
+}
+
+header label{
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+}
+
+header label:hover{
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.menu{
+    background: white;
+}
+
+.menu ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: flow;
+    justify-content: center;
+}
+
+.menu li a{
+    font-size: 18px;
+    display: block;
+    padding: 12px 16px;
+    color: #414142;
+    text-decoration: none;
+}
+
+.menu li:hover{
+    background: rgba(0, 0, 0, 0.1);
+}
+
+#menu-separador{
+    background-color:  #414142;
+    
+}
+
+#menu-separador a{
+    color: white;
+}
+
+.social-bar{
+    position: absolute;
+    right: 0;
+    top: 7.5%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100;
+}
+
+.icon{
+    color: white;
+    text-decoration: none;
+    padding: .7rem;
+    display: flex;
+    transition: all .5s;
+}
+
+.icon-facebook{
+    background: #3b5998;
+}
+
+.icon-twitter{
+    background: #00acee;
+}
+
+.icon-instagram{
+    background: #3f729b;
+}
+
+.icon:first-child{
+    border-radius: 7.5px 0 0 0;
+}
+
+.icon:last-child{
+    border-radius: 0 0 0 7.5px;
+}
+
+.icon:hover{
+    padding-right: 1.5rem;
+    border-radius: 1rem, 0, 0, 1rem;
+    box-shadow: 0 0 .5rem rgb(0, 0, 0, .45)
+}
+
+/* Pagina index */
+.message-index{ 
+    width: 100%;
+    height: auto;
+    border-bottom: .5px solid #dddbdb;
+}
+
+.message-index h1{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    color: yellow;
+    text-decoration: underline;
+}
+
+.message-index h2{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    color: yellow;    
+}
+
+.message-index img{
+    width: 20%;
+    display: block;
+    margin: auto;
+    padding: 20px 0 20px 0; 
+}
+
+.message-index p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: yellow;
+    margin-bottom: 20px; 
+}
+
+.delivery{
+    width: 100%;
+    height: 175px;
+    background: #3b5998;
+}
+
+#moto-delivery{
+    height: 100%;
+    float: left;
+}
+
+#moto-delivery2{
+    height: 100%;
+    float: right;
+    margin-right: 10px;
+}
+
+.intro-delivery{
+    font-family: 'Squada One', cursive;
+}
+
+.intro-delivery p{
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.intro-delivery #btn-pedido{
+    font-family: 'Squada One', cursive;
+    display: block;
+    margin: auto;
+    font-size: 30px;
+    padding: 10px 20px 10px 20px;
+    margin-top: 20px;
+    border: 5px solid white;
+    border-radius: 12px;
+    color: white;
+    background: #3b5998;
+} /* Pagina index */
+
+/* Pagina promociones */
+
+.contenedor-promociones{
+    width: 85%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Lobster', cursive;
+}
+
+.contenedor-promociones h1{
+    font-size: 35px;
+    text-align: center;
+    color: red;
+    background: yellow;
+    margin: auto;
+    margin-bottom: 30px;
+    width: 70%;
+}
+
+.tabla{
+    width: 100%;
+    height: 675px;
+    display: block;
+    border: 5px solid yellow;
+    border-radius: 15px;
+    background: #b6c4ee;
+    text-align: center;
+}
+
+#promo-dia{
+    width: 100%;
+    height: 300px;
+    float: left;
+    background: #83a0f5;
+    border: solid .5px white;
+    display: block;
+}
+
+#promo-dia h2{
+    font-size: 35px;
+    color: yellow;
+    background: #2355eb;
+}
+
+#promo-dia h3{
+    font-size: 35px;
+    background: #b6c4ee;
+    color: #2355eb;
+}
+
+#promo-dia p{
+    font-size: 20px;
+    margin-top: 20px;
+    color: #2355eb;
+}
+
+#promo-dia h4{
+    font-size: 40px;
+    margin-top: 10px;
+    color: #2355eb;
+}
+
+#mascota-left{
+    height: 100%;
+    float: left;
+    margin-left: 20px;
+}
+
+#mascota-right{
+    height: 100%;
+    float: right;
+    margin-right: 20px;
+}
+
+
+#promo-lun, #promo-mar, #promo-mie, #promo-jue, #promo-vie, #promo-sab, #promo-dom{
+    width: 50%;
+    height: 125px;
+    float: left;
+    text-align: center;
+    color: #2355eb;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Pagina promociones */
+
+
+/* Pagina carta */
+.contenedor-carta{
+    width: 85%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Lobster', cursive;
+}
+
+.contenedor-carta h1{
+    font-size: 35px;
+    text-align: center;
+    color: red;
+    background: yellow;
+    margin: auto;
+    margin-bottom: 30px;
+    width: 70%;
+}
+
+.carta{
+    width: 100%;
+    height: 700px;
+    display: block;
+    background: #fdfd96;
+    border: 5px solid yellow;
+    border-radius: 15px;
+    color: red;
+}
+
+.comida{
+    width: 49%;
+    height: 175px;
+    float: left;
+    display: block;
+}
+
+.comida-imagen{
+    width: 40%;
+    height: 100%;
+    float: left;
+    display: block;
+}
+
+.comida-imagen img{
+    width: 80%;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    display: block;
+}
+
+.comida-info{
+    width: 60%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+/* Pagina carta */
+
+/* Pagina sucursal*/
+.sucursal{
+    width: 85%;
+    height: auto;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px; 
+}
+
+#mapa-guernica{
+    width: 100%;
+}
+
+#mapa-guernica iframe{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+.sucursal h1{
+    font-size: 35px;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    color: red;
+    background: yellow;
+    margin: auto;
+    margin-bottom: 30px;
+    width: 70%;
+}
+
+.sucursal h2{
+    font-size: 30px;
+    text-align: center;
+    color: red;
+    background: white;
+    width: 50%;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 10px; 
+}
+
+.sucursal p{
+    text-align: center;
+    color: white;
+} /* Pagina sucursal */
+
+footer{
+    border-top: .5px solid #dddbdb;
+    box-shadow: 0 1px 5px #ccc;
+    width: 100%;
+    height: 100px;
+    bottom: 0;
+    position: responsive;
+    background-color: #414142;
+    display: table;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    display: table-cell;
+	vertical-align: middle;
+    font-size: 15px;
+}
+
+footer p a{
+    text-decoration: none;
+    color: white;
+}
+
+footer p a:hover{
+    text-decoration: underline;
+}
+
+@media (max-width: 940px){
+    .delivery img{ /* Pagina index */
+        display: none;
+    }
+}
+
+
+@media (max-width: 778px){
+    
+    header{
+        margin-bottom: 0px;
+    }
+
+    header label{
+        display: block;
+    }
+
+    .menu{
+        position: absolute;
+        background: white;
+        width: 70%;
+        margin-left: -70%;
+        transition: all 0.55;
+        z-index: 1000;
+    }
+
+    #logo-barra{
+        width: 50%;
+    }
+
+    .menu ul{
+        flex-direction: column;
+    }
+
+    .menu li{
+        border-bottom: 1px solid #414142;
+        border-right: 5px solid #414142;
+    }
+
+    .menu li a{
+        color: #414142;
+        font-size: 22px;
+    }
+
+    #boton-menu:checked ~ .menu{
+        margin: 0;
+        color: white;
+    }
+
+    .social-bar{
+        position: absolute;
+        top: 7.5%;
+    }
+
+    .icon{
+        background: #414142;
+    }
+
+    .icon-twitter{
+        border-top: white solid 1.75px;
+        border-bottom: white solid 1.75px;
+    }
+
+    /* Pagina index */
+    .message-index{
+        height: auto;
+    }
+
+    .message-index h1{
+        font-size: 30px;
+        text-decoration: none;
+    }
+
+    .message-index img{
+        width: 150px;
+    }
+
+    .delivery{
+        height: auto;
+        padding-bottom: 10px;
+    }
+
+    .intro-delivery p{
+        margin-top: 20p;
+        font-size: 25px;
+        color: yellow;
+    }
+
+    .intro-delivery #btn-pedido{
+        font-size: 25px;
+        background: yellow;
+        border: 2.5px solid red;
+        color: red;
+    } /* Pagina index */
+
+    /* Pagina promociones */
+
+    .contenedor-promociones{
+        width: 100%;
+    }
+
+    .contenedor-promociones h1{
+        width: 90%;
+        font-size: 20px;
+    }
+
+    .tabla{
+        width: 100%;
+        height: 1000px;
+        border-left: 0;
+        border-right: 0;
+        border-radius: 0;
+    }
+
+    #promo-lun, #promo-mar, #promo-mie, #promo-jue, #promo-vie, #promo-sab, #promo-dom{
+        width: 100%;
+    }
+
+    #promo-dia{
+        border-bottom: 4px solid #2355eb;
+        border-left: 0;
+        border-right: 0;
+        border-top: 0;
+        background: gray;
+        height: 250px;
+    }
+
+    #promo-dia h3{
+        background: yellow;
+    }
+
+    #promo-dia p{
+        color: white;
+    }
+
+    #promo-dia h4{
+        color: white;
+    }
+
+    #mascota-left{
+        display: none;
+    }
+
+    #mascota-right{
+        display: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    /* Pagina promociones */
+
+    /* Pagina carta */
+    .contenedor-carta{
+        width: 100%;
+    }
+
+    .contenedor-carta h1{
+        width: 90%;
+        font-size: 20px;
+    }
+
+    .carta{
+        width: 100%;
+        height: 960px;
+        border: 0;
+        border-radius: 0;
+        border-top: 5px solid yellow;
+        border-bottom: 5px solid yellow;
+    }
+
+    .comida{
+        width: 98%;
+        height: 120px;
+        border-bottom: 1px solid red;
+    }
+
+    .comida-info{
+        width: 100%;
+    }
+
+    .comida-imagen{
+        display: none;
+    }
+    /* Pagina carta */
+
+/* Pagina sucursal */
+    .sucursal{ 
+        margin-top: 10px;
+    }
+    
+    #mapa-guernica iframe{
+        width: 100%;
+        height: auto;
+    }
+
+    .sucursal h1{
+        font-size: 18px;
+        width: 100%;
+        padding: 5px;
+        margin-bottom: 20px;
+    }
+
+    .sucursal h2{
+        font-size: 20px;
+    } /*Pagina sucursal */
+
+    
+}

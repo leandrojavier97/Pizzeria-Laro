@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="styleSheet" href="css/estilo.css" type="text/css" media=screen>
+    <link href="https://fonts.googleapis.com/css?family=Squada+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css" media=screen>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script src="js/jquery.flexslider.js"></script>
+    <script src="js/index.js"></script>
+    <script type="text/javascript" charset="utf-8">
+        $(window).load(function() {
+          $('.flexslider').flexslider({
+              touch:true
+              });
+        });
+        </script>
+    <link rel="icon" type="image/png" href="img/favicon.ico" />
+    <title>Pizzeria "Laro" - Inicio</title>
+</head>
+<body>
+    <header>
+      <div id="header-contacto">
+
+      </div>
+      <div class="social-bar">
+        <a href="" class="icon icon-facebook" target="_blank"></a>
+        <a href="" class="icon icon-twitter" target="_blank"></a>
+        <a href="" class="icon icon-instagram" target="_blank"></a>
+      </div>
+      <img src="img/logo.png" id="logo-barra">    
+        <input type="checkbox" id="boton-menu">
+        <label for="boton-menu"><img src="img/icono-menu.png" alt=""></label>
+        <nav class="menu">
+            <ul>
+                <li id="menu-separador"><a href="">INICIO</a></li>
+                <li><a href="html/promociones.html">PROMOS</a></li>
+                <li><a href="html/carta.html">CARTA</a></li>
+                <li><a href="html/sucursal.html">SUCURSAL</a></li>
+            </ul>
+        </nav>
+    </header>
+        <div class="flexslider">
+            <ul class="slides">
+                <li>
+                    <img src="img/slider-pizza0.jpg" alt="">
+                    <section class="flex-caption">
+                        <p>Disfruta la promo del dia</p>
+                    </section>
+                </li>
+                <li>
+                    <img src="img/slider-pizza1.jpg" alt="">
+                    <section class="flex-caption">
+                        <p>Abierto de 10hs a 00hs, todos los dias del año</p>
+                    </section>
+                </li>
+                <li>
+                    <img src="img/slider-pizza2.jpg" alt="">
+                    <div class="flex-caption">
+                        <p>Delivery sin cargo</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="message-index">
+            <h1>Bienvenidos a pizzas Laro</h1>
+            <h2>Fundada en 2019</h2>
+            <img src="img/mascota.png" alt="">
+            <p>Pizzería de Buenos Aires que ofrece las mejores pizzas a la piedra en hornos a leña.</p>
+        </div>
+        <div class="delivery">  
+            <img src="img/delivery.png" id="moto-delivery">
+            <img src="img/delivery.png" id="moto-delivery2">
+            <div class="intro-delivery">
+                <p>Disfruta de nuestro servicio de delivery, sin moverte del sillón.</p>
+                <input type="button" id="btn-pedido" onClick="mostrarAlerta()" value="REALIZAR PEDIDO">
+            </div>
+        </div>
+    <footer>
+        <p>Pizzeria Laro © - 2019 &nbsp | &nbsp Designed by <a href="https://github.com/leandrojavier97/">leandrojavier97</a> </p>
+    </footer>
+</body>
+</html>
