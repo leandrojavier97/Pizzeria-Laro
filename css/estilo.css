@@ -76,7 +76,6 @@ header label:hover{
 
 #menu-separador{
     background-color:  #414142;
-    
 }
 
 #menu-separador a{
@@ -194,7 +193,7 @@ header label:hover{
 }
 
 .intro-delivery #btn-pedido{
-    font-family: 'Squada One', cursive;
+    font-family: 'Squada One', 'Lobster', cursive;
     display: block;
     margin: auto;
     font-size: 30px;
@@ -207,13 +206,12 @@ header label:hover{
 } /* Pagina index */
 
 /* Pagina promociones */
-
 .contenedor-promociones{
     width: 85%;
     margin: auto;
     margin-top: 30px;
     margin-bottom: 30px;
-    font-family: 'Lobster', cursive;
+    font-family: 'Squada One', 'Lobster', cursive;
 }
 
 .contenedor-promociones h1{
@@ -281,7 +279,6 @@ header label:hover{
     margin-right: 20px;
 }
 
-
 #promo-lun, #promo-mar, #promo-mie, #promo-jue, #promo-vie, #promo-sab, #promo-dom{
     width: 50%;
     height: 125px;
@@ -289,26 +286,7 @@ header label:hover{
     text-align: center;
     color: #2355eb;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Pagina promociones */
-
 
 /* Pagina carta */
 .contenedor-carta{
@@ -316,7 +294,7 @@ header label:hover{
     margin: auto;
     margin-top: 30px;
     margin-bottom: 30px;
-    font-family: 'Lobster', cursive;
+    font-family: 'Squada One', 'Lobster', cursive;
 }
 
 .contenedor-carta h1{
@@ -450,7 +428,6 @@ footer p a:hover{
     }
 }
 
-
 @media (max-width: 778px){
     
     header{
@@ -540,9 +517,9 @@ footer p a:hover{
     } /* Pagina index */
 
     /* Pagina promociones */
-
     .contenedor-promociones{
         width: 100%;
+        margin-top: 10px;
     }
 
     .contenedor-promociones h1{
@@ -552,7 +529,7 @@ footer p a:hover{
 
     .tabla{
         width: 100%;
-        height: 1000px;
+        height: 1025px;
         border-left: 0;
         border-right: 0;
         border-radius: 0;
@@ -560,6 +537,7 @@ footer p a:hover{
 
     #promo-lun, #promo-mar, #promo-mie, #promo-jue, #promo-vie, #promo-sab, #promo-dom{
         width: 100%;
+        height: 125px;
     }
 
     #promo-dia{
@@ -568,7 +546,7 @@ footer p a:hover{
         border-right: 0;
         border-top: 0;
         background: gray;
-        height: 250px;
+        height: 275px;
     }
 
     #promo-dia h3{
@@ -590,22 +568,12 @@ footer p a:hover{
     #mascota-right{
         display: none;
     }
-
-
-
-
-
-
-
-
-
-
-
     /* Pagina promociones */
 
     /* Pagina carta */
     .contenedor-carta{
         width: 100%;
+        margin-top: 10px;
     }
 
     .contenedor-carta h1{
@@ -615,7 +583,7 @@ footer p a:hover{
 
     .carta{
         width: 100%;
-        height: 960px;
+        height: 2000px;
         border: 0;
         border-radius: 0;
         border-top: 5px solid yellow;
@@ -624,16 +592,26 @@ footer p a:hover{
 
     .comida{
         width: 98%;
-        height: 120px;
+        height: 250px;
         border-bottom: 1px solid red;
+        display: inline-block;
     }
 
     .comida-info{
         width: 100%;
+        height: 50%;
     }
 
     .comida-imagen{
-        display: none;
+        /*display: none;*/
+        width: 100%;
+        height: 50%;
+        margin: 10px 0 10px 0;
+    }
+
+    .comida-imagen img{
+        width: 50%;
+        margin: auto;
     }
     /* Pagina carta */
 
@@ -657,6 +635,4 @@ footer p a:hover{
     .sucursal h2{
         font-size: 20px;
     } /*Pagina sucursal */
-
-    
 }
